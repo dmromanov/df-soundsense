@@ -1,0 +1,9 @@
+# Autodetect text files
+* text=auto
+
+# Force the following filetypes to have unix eols, so Windows does not break them
+*.sh eol=lf
+
+# Declare files that will always have CRLF line endings on checkout.
+*.cmd text eol=crlf
+*.bat text eol=crlf
